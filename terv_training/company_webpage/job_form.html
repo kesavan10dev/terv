@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+   
+    <title>HTML5 Form Example</title>
+   
+</head>
+<body >
+
+    <h2>Contact Form</h2>
+    
+    <form>
+        
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="eg:jgvjhg" required>
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="100">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <br><br>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe to our newsletter</label>
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+        </select>
+        <br><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+    <a href="home_page.html">Return to home</a>
+
+</body>
+</html>
